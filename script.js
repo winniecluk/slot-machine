@@ -54,9 +54,9 @@ function createSlotSpan(randomSlot, parent){
   parent.appendChild(span);
 }
 
-function createAudio(win){
+function createAudio(key){
   var audioElement = document.createElement('audio');
-  audioElement.src = musicRef[win];
+  audioElement.src = musicRef[key];
   audioElement.play();
 }
 

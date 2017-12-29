@@ -5,9 +5,9 @@
     <title>Slot Machine</title>
   </head>
     <style>
-      * {
+      /** {
         border: 1px solid red;
-      }
+      }*/
 
       div.quarters-display {
         text-align:right;
@@ -30,8 +30,10 @@
         cursor: pointer;
       }
 
-      div.message {
-        border: 1px solid blue;
+      div.message.center {
+        background-color: white;
+        padding: 8px;
+        border: 1px solid black;
       }
 
       .center {
@@ -43,10 +45,7 @@
       }
 
       .absolute {
-        border: 1px solid blue;
         position: absolute;
-        background-color: white;
-        padding: 8px;
       }
     </style>
   <body>
@@ -62,7 +61,7 @@
       </div>
       <div class="slot-machine">
       </div>
-      <button class="lever">
+      <button class="lever center">
         P<br />
         L<br />
         A<br />
