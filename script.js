@@ -8,7 +8,7 @@ var musicRef = {
   'win': 'sounds/win.wav'
   , 'loss': 'sounds/loss.wav'
   , 'spin': 'sounds/spin.wav'
-}
+};
 var imagesRef = {
   'lemon': {
     value: 0
@@ -22,7 +22,7 @@ var imagesRef = {
     value: 2
     , imagePath: 'images/watermelon.png'
   }
-}
+};
 
 startGame();
 function startGame(){
@@ -115,4 +115,4 @@ document.addEventListener('click', function(e){
     document.querySelector('button.lever').removeAttribute('disabled');
     startGame();
   };
-})
+});
