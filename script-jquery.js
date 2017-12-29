@@ -85,7 +85,7 @@ $('button.lever').on('click', function(e){
   setTimeout(function(){
     if (totalQuarters === 0){
       createAudio('loss');
-      document.querySelector('button.lever').setAttribute('disabled', 'true');
+      $('button.lever').attr('disabled', 'true');
       createMessage('show');
       // display message
     } else if (!loss){
